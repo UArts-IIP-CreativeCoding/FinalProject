@@ -1,0 +1,4 @@
+Project Proposal: Mirror//Mirror
+Andrew Cotter
+
+The program presents the user's face much like a mirror. The user's facial features are additively covered by by text until the face is mostly occluded over time. The words themselves will address the features that they cover. The words will have meanings ranging from supportive to passive-aggressive or outright rude depending on the persona of the "mirror" that the user chose at the start of the program.
