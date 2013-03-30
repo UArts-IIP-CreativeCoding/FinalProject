@@ -1,6 +1,6 @@
 sipodometer bklevence@uarts.eduUArts-IIP-CreativeCoding / FinalProject / highscore!
 a sipcounter to track your caffiene habbts while working or procrastinating on the computer.
-keyword-dumpbehind the scenes, data tracking, coffee, tea, water, data visualization, reminders, suggestions(rescutime esque), work, procrastination, tired, time.
+keyworddumpbehind the scenes, data tracking, coffee, tea, water, data visualization, reminders, suggestions(rescutime esque), work, procrastination, tired, time.
 
 YOUR MOVEMENTS SEEM SLOW. 
 YOU HAVN'T HAD YOUR STARBUCKS TODAY! 
