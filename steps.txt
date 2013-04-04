@@ -1,0 +1,25 @@
+steps
+
+install open cv
+	
+	test
+	learn motion tracking of colored object
+	object with tracking with target
+	count movements
+	movements over time = a cup
+	duration without cup = w/e
+		
+
+interface
+
+	what would you like tracked?
+	what would you like to be reminded of?
+	make a mockup of counter
+	faux data vis
+	faux reminders/alerts
+
+	make interface in open cv
+	
+	
+
+	
