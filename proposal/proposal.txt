@@ -1,0 +1,16 @@
+sipodometer / bklevence@uarts.edu / UArts-IIP-CreativeCoding / FinalProject / highscore!
+a sipcounter to track your caffiene habbts while working or procrastinating on the computer
+
+keywords:
+behind the scenes, data tracking, coffee, tea, water, data visualization, 
+reminders, suggestions(rescutime esque), work, procrastination, tired, time.
+
+YOUR MOVEMENTS SEEM SLOW.
+YOU HAVN'T HAD YOUR STARBUCKS TODAY! 
+TAKE ANOTHER SIP! 
+YOUR CAFFIENE RUSH WILL BEGIN IN t- 15MIN. 
+YOU'VE HAD 3 CUPS OF COFFEE TODAY. 
+IS THAT CUP OF COFFEE GETTING COLD? 
+YOU HAVE HAD 300 COFFEES THIS YEAR. 
+20 SIPS THIS CUP, GET ANOTHER! 
+ARE YOU BURNING THE MIDNIGHT OIL AGAIN?
