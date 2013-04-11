@@ -1,0 +1,23 @@
+Mirror//Mirror Project Outline
+
+
+Set up Start screen
+	Define fonts and assign strings to them
+Set up Persona selection
+	Define more font strings
+	Add a triangle that can be moved
+	Create a boolean to differentiate the start and select screens
+	Create a boolean for the OpenCV "mirror" screen
+Figure out OpenCV
+	Find an example
+	Try to integrate it into the program
+	Mess with it
+	Make it track my face
+	Make it full screen
+	Get strings to draw over OpenCV
+	Make the strings track to my face
+Write out a lot of strings
+	List a lot of strings for each persona
+	define them
+	instantiate them
+	make them work with OpenCV
