@@ -4,8 +4,12 @@ install open cv
 	
 	test
 	learn motion tracking of colored object
+
 	object with tracking with target
+
+
 	count movements
+
 	movements over time = a cup
 	duration without cup = w/e
 		
@@ -18,7 +22,9 @@ interface
 	faux data vis
 	faux reminders/alerts
 
-	make interface in open cv
+	make interface in of
+
+	should I try doing in processing so it works cross platform
 	
 	
 
