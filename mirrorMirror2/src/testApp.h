@@ -35,6 +35,9 @@ public:
     int findHue;
     
     
+    ofxCvBlob blob;
+    
+    
     ofTrueTypeFont mirror;
     ofTrueTypeFont mirror2;
     ofTrueTypeFont press;

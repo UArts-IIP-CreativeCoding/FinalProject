@@ -2,33 +2,33 @@
 
 //--------------------------------------------------------------
 void testApp::setup(){
+    
     string title = "Mirror";
     string titleTwo = "//Mirror";
     string start = "Press Space to start";
     bool begin = false;
     bool mirrorStart = false;
-    mirror.loadFont("MavenProLight-200.otf", 72);
+    mirror.loadFont("MavenProLight-200.otf", 72); 
     mirror2.loadFont("MaveProLight-200.otf", 72);
     press.loadFont("MavenProLight-200.otf", 48);
     select.loadFont("MavenProLight-200.otf", 36);
     names.loadFont("MavenProLight-200.otf", 24);
     directions.loadFont("MavenProLight-200.otf", 14);
-    triHeight = 215;
-    
-    
+    triHeight = 215;    
     
     w = 320;
     h = 240;
     
-    movie.initGrabber(w, h, true);
+    movie.initGrabber(ofGetWidth(), ofGetHeight(), true);
     
     //reserve memory for cv images
-    rgb.allocate(w, h);
-    hsb.allocate(w, h);
-    hue.allocate(w, h);
-    sat.allocate(w, h);
-    bri.allocate(w, h);
-    filtered.allocate(w, h);
+    rgb.allocate(ofGetWidth(), ofGetHeight());
+    hsb.allocate(ofGetWidth(), ofGetHeight());
+    hue.allocate(ofGetWidth(), ofGetHeight());
+    sat.allocate(ofGetWidth(), ofGetHeight());
+    bri.allocate(ofGetWidth(), ofGetHeight());
+    filtered.allocate(ofGetWidth(), ofGetHeight());
+
 }
 
 //--------------------------------------------------------------
@@ -38,7 +38,7 @@ void testApp::update(){
     if (movie.isFrameNew()) {
         
         //copy webcam pixels to rgb image
-        rgb.setFromPixels(movie.getPixels(), w, h);
+        rgb.setFromPixels(movie.getPixels(), ofGetWidth(), ofGetHeight());
         
         //mirror horizontal
         rgb.mirror(false, true);
@@ -52,14 +52,14 @@ void testApp::update(){
         //store the three channels as grayscale images
         hsb.convertToGrayscalePlanarImages(hue, sat, bri);
         
-        //filter image based on the hue value were looking for
+        //filter image based on the hue value we're looking for
         for (int i=0; i<w*h; i++) {
             filtered.getPixels()[i] = ofInRange(hue.getPixels()[i],findHue-5,findHue+5) ? 255 : 0;
         }
         filtered.flagImageChanged();
         
         //run the contour finder on the filtered image to find blobs with a certain hue
-        contours.findContours(filtered, 50, w*h/2, 1, false);
+        contours.findContours(filtered, 50, w*h, 1, false);
     }
 }
 
@@ -97,20 +97,23 @@ void testApp::draw(){
         ofSetColor(255,255,255);
         
         //draw all cv images
-        rgb.draw(0,0);
-        hsb.draw(640,0);
-        hue.draw(0,240);
-        sat.draw(320,240);
-        bri.draw(640,240);
-        filtered.draw(0,480);
-        contours.draw(0,480);
+        rgb.draw(0, 0);
+//        hsb.draw(0,0);
+//        hue.draw(0,0);
+//        sat.draw(0,0);
+//        bri.draw(0,0);
+//        filtered.draw(0,0);
+        contours.draw(0,0);
         
-        ofSetColor(255, 0, 0);
+        ofSetColor(255, 40, 90);
         ofFill();
+        
+        rgb.drawBlobIntoMe(blob, 255);
         
         //draw red circles for found blobs
         for (int i=0; i<contours.nBlobs; i++) {
-            ofCircle(contours.blobs[i].centroid.x, contours.blobs[i].centroid.y, 20);
+            //ofCircle(contours.blobs[i].centroid.x, contours.blobs[i].centroid.y, 20);
+            directions.drawString("hello", contours.blobs[i].centroid.x, contours.blobs[i].centroid.y);
         }
     }
 }
