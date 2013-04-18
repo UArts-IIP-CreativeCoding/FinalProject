@@ -5,6 +5,7 @@ class Stripes {
   }
   
   void stripe(){
+    //makes stripes diagonal
     background(255, 218, 42);
     rotate(PI/4);
 translate(0, -800);
