@@ -1,0 +1,1106 @@
+﻿Build started 4/25/2013 7:55:32 PM.
+     1>Project "C:\Projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\apps\myApps\ofxKinect\ofxKinectExample.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "obj\Debug\ofxKinectExample.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\libs\cairo\include\cairo /I..\..\..\libs\openFrameworks /I..\..\..\libs\openFrameworks\graphics /I..\..\..\libs\openFrameworks\app /I..\..\..\libs\openFrameworks\sound /I..\..\..\libs\openFrameworks\utils /I..\..\..\libs\openFrameworks\math /I..\..\..\libs\openFrameworks\gl /I..\..\..\libs\openFrameworks\3d /I..\..\..\libs\openFrameworks\communication /I..\..\..\libs\openFrameworks\video /I..\..\..\libs\openFrameworks\events /I..\..\..\libs\openframeworks\types /I..\..\..\libs\glut\include /I..\..\..\libs\rtAudio\include /I..\..\..\libs\quicktime\include /I..\..\..\libs\freetype\include /I..\..\..\libs\freetype\include\freetype2 /I..\..\..\libs\freeImage\include /I..\..\..\libs\fmodex\include /I..\..\..\libs\tess2\include /I..\..\..\libs\videoInput\include /I..\..\..\libs\glew\include /I..\..\..\libs\glu\include /I..\..\..\libs\poco\include /I..\..\..\addons /I..\..\..\addons\ofxOpenCv\src /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv /I..\..\..\addons\ofxOpenCv\libs\opencv\include /I..\..\..\addons\ofxKinect\src /I..\..\..\addons\ofxKinect\libs\libfreenect /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D POCO_STATIC /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Debug\\" /Fd"obj\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\addons\ofxKinect\ofxKinect\src\ofxKinect.cpp ..\..\..\addons\ofxKinect\src\ofxKinect.cpp ..\..\..\addons\ofxOpenCv\src\ofxCvColorImage.cpp ..\..\..\addons\ofxOpenCv\src\ofxCvContourFinder.cpp ..\..\..\addons\ofxOpenCv\src\ofxCvFloatImage.cpp ..\..\..\addons\ofxOpenCv\src\ofxCvGrayscaleImage.cpp ..\..\..\addons\ofxOpenCv\src\ofxCvImage.cpp ..\..\..\addons\ofxOpenCv\src\ofxCvShortImage.cpp src\main.cpp src\testApp.cpp
+         testApp.cpp
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(70): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(70): error C2143: syntax error : missing ',' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): error C2433: 'ofxCvImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): warning C4183: 'getCvImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(136): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(155): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(156): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(158): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(159): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(159): error C2535: 'void ofxCvImage::rangeMap(void)' : member function already defined or declared
+                 c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(158) : see declaration of 'ofxCvImage::rangeMap'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): error C2433: 'ofxCvImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): warning C4183: 'getCv8BitsImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): error C2433: 'ofxCvImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): warning C4183: 'getCv8BitsRoiImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(166): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(166): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(166): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(167): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(167): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(167): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.h(60): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.h(60): error C2143: syntax error : missing ',' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.h(155): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.h(155): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.h(155): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.h(58): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.h(58): error C2143: syntax error : missing ',' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.h(135): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.h(135): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.h(135): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(74): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(74): error C2143: syntax error : missing ',' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(147): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(148): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(149): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(149): error C2433: 'ofxCvFloatImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(149): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(149): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(149): warning C4183: 'getCv8BitsImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(150): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(150): error C2433: 'ofxCvFloatImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(150): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(150): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(150): warning C4183: 'getCv8BitsRoiImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(156): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(156): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(156): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(57): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(57): error C2143: syntax error : missing ',' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(127): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(128): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(129): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(129): error C2433: 'ofxCvShortImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(129): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(129): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(129): warning C4183: 'getCv8BitsImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(130): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(130): error C2433: 'ofxCvShortImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(130): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(130): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(130): warning C4183: 'getCv8BitsRoiImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(132): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(132): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(132): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.h(59): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.h(59): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.h(59): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.h(60): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.h(60): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.h(60): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.h(61): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.h(61): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.h(61): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.h(62): error C2065: 'CvSeq' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.h(62): error C2059: syntax error : '>'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.h(69): error C2143: syntax error : missing ';' before '}'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvhaarfinder.h(20): error C2143: syntax error : missing ';' before '{'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvhaarfinder.h(38): error C2065: 'roi' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvhaarfinder.h(38): error C2275: 'ofRectangle' : illegal use of this type as an expression
+                 c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\libs\openframeworks\types\ofrectangle.h(56) : see declaration of 'ofRectangle'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvhaarfinder.h(38): error C2146: syntax error : missing ',' before identifier 'minWidth'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvhaarfinder.h(38): error C2065: 'minWidth' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvhaarfinder.h(38): error C2146: syntax error : missing ',' before identifier 'minHeight'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvhaarfinder.h(38): error C2065: 'minHeight' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvhaarfinder.h(38): error C2143: syntax error : missing ',' before ')'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvhaarfinder.h(54): error C2143: syntax error : missing ';' before '}'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\apps\myapps\ofxkinect\src\testapp.h(5): fatal error C1083: Cannot open include file: 'ofxKinect.h': No such file or directory
+         main.cpp
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(70): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(70): error C2143: syntax error : missing ',' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): error C2433: 'ofxCvImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): warning C4183: 'getCvImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(136): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(155): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(156): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(158): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(159): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(159): error C2535: 'void ofxCvImage::rangeMap(void)' : member function already defined or declared
+                 c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(158) : see declaration of 'ofxCvImage::rangeMap'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): error C2433: 'ofxCvImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): warning C4183: 'getCv8BitsImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): error C2433: 'ofxCvImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): warning C4183: 'getCv8BitsRoiImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(166): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(166): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(166): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(167): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(167): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(167): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.h(60): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.h(60): error C2143: syntax error : missing ',' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.h(155): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.h(155): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.h(155): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.h(58): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.h(58): error C2143: syntax error : missing ',' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.h(135): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.h(135): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.h(135): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(74): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(74): error C2143: syntax error : missing ',' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(147): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(148): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(149): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(149): error C2433: 'ofxCvFloatImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(149): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(149): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(149): warning C4183: 'getCv8BitsImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(150): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(150): error C2433: 'ofxCvFloatImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(150): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(150): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(150): warning C4183: 'getCv8BitsRoiImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(156): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(156): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(156): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(57): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(57): error C2143: syntax error : missing ',' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(127): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(128): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(129): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(129): error C2433: 'ofxCvShortImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(129): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(129): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(129): warning C4183: 'getCv8BitsImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(130): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(130): error C2433: 'ofxCvShortImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(130): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(130): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(130): warning C4183: 'getCv8BitsRoiImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(132): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(132): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(132): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.h(59): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.h(59): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.h(59): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.h(60): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.h(60): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.h(60): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.h(61): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.h(61): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.h(61): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.h(62): error C2065: 'CvSeq' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.h(62): error C2059: syntax error : '>'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.h(69): error C2143: syntax error : missing ';' before '}'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvhaarfinder.h(20): error C2143: syntax error : missing ';' before '{'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvhaarfinder.h(38): error C2065: 'roi' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvhaarfinder.h(38): error C2275: 'ofRectangle' : illegal use of this type as an expression
+                 c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\libs\openframeworks\types\ofrectangle.h(56) : see declaration of 'ofRectangle'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvhaarfinder.h(38): error C2146: syntax error : missing ',' before identifier 'minWidth'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvhaarfinder.h(38): error C2065: 'minWidth' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvhaarfinder.h(38): error C2146: syntax error : missing ',' before identifier 'minHeight'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvhaarfinder.h(38): error C2065: 'minHeight' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvhaarfinder.h(38): error C2143: syntax error : missing ',' before ')'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvhaarfinder.h(54): error C2143: syntax error : missing ';' before '}'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\apps\myapps\ofxkinect\src\testapp.h(5): fatal error C1083: Cannot open include file: 'ofxKinect.h': No such file or directory
+         ofxKinect.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: '..\..\..\addons\ofxKinect\src\ofxKinect.cpp': No such file or directory
+         ofxKinect.cpp
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxkinect\ofxkinect\src\ofxkinect.h(35): fatal error C1083: Cannot open include file: 'libfreenect.h': No such file or directory
+         Generating Code...
+         Compiling...
+         ofxCvColorImage.cpp
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(70): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(70): error C2143: syntax error : missing ',' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): error C2433: 'ofxCvImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): warning C4183: 'getCvImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(136): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(155): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(156): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(158): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(159): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(159): error C2535: 'void ofxCvImage::rangeMap(void)' : member function already defined or declared
+                 c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(158) : see declaration of 'ofxCvImage::rangeMap'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): error C2433: 'ofxCvImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): warning C4183: 'getCv8BitsImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): error C2433: 'ofxCvImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): warning C4183: 'getCv8BitsRoiImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(166): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(166): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(166): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(167): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(167): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(167): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.h(60): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.h(60): error C2143: syntax error : missing ',' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.h(155): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.h(155): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.h(155): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.h(58): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.h(58): error C2143: syntax error : missing ',' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.h(135): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.h(135): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.h(135): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(74): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(74): error C2143: syntax error : missing ',' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(147): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(148): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(149): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(149): error C2433: 'ofxCvFloatImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(149): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(149): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(149): warning C4183: 'getCv8BitsImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(150): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(150): error C2433: 'ofxCvFloatImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(150): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(150): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(150): warning C4183: 'getCv8BitsRoiImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(156): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(156): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(156): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(57): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(57): error C2143: syntax error : missing ',' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(127): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(128): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(129): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(129): error C2433: 'ofxCvShortImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(129): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(129): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(129): warning C4183: 'getCv8BitsImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(130): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(130): error C2433: 'ofxCvShortImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(130): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(130): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(130): warning C4183: 'getCv8BitsRoiImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(132): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(132): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(132): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(19): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(19): error C3861: 'cvCopy': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(27): error C2065: 'IPL_DEPTH_8U' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(31): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(36): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(37): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(37): error C3861: 'cvReleaseImage': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(53): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(53): error C3861: 'cvSet': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(53): error C3861: 'cvScalar': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(63): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(63): error C3861: 'cvSet': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(63): error C3861: 'cvScalar': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(73): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(73): error C2065: 'cvImageTemp' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(73): error C3861: 'cvSubS': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(73): error C3861: 'cvScalar': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(84): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(84): error C2065: 'cvImageTemp' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(84): error C3861: 'cvAddS': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(84): error C3861: 'cvScalar': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(102): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(102): error C2227: left of '->width' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(102): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(102): error C2227: left of '->nChannels' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(102): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(102): error C2227: left of '->widthStep' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(103): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(103): error C2227: left of '->imageData' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(106): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(106): error C2227: left of '->imageData' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(106): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(106): error C2227: left of '->widthStep' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(131): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(131): error C2227: left of '->imageData' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(131): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(131): error C2227: left of '->widthStep' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(157): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(157): error C3861: 'cvCvtPlaneToPix': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(185): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(185): error C2065: 'CV_GRAY2RGB' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(185): error C3861: 'cvCvtColor': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(208): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(208): error C3861: 'cvCopy': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(233): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(234): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(234): error C2065: 'IPL_DEPTH_8U' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(234): error C3861: 'cvCreateImage': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(234): error C3861: 'cvSize': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(237): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(238): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(240): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(240): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(240): error C2065: 'CV_GRAY2RGB' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(240): error C3861: 'cvCvtColor': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(262): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(263): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(263): error C2065: 'IPL_DEPTH_8U' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(263): error C3861: 'cvCreateImage': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(263): error C3861: 'cvSize': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(266): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(267): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.cpp(267): fatal error C1003: error count exceeds 100; stopping compilation
+         Generating Code...
+         Compiling...
+         ofxCvContourFinder.cpp
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(70): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(70): error C2143: syntax error : missing ',' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): error C2433: 'ofxCvImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): warning C4183: 'getCvImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(136): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(155): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(156): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(158): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(159): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(159): error C2535: 'void ofxCvImage::rangeMap(void)' : member function already defined or declared
+                 c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(158) : see declaration of 'ofxCvImage::rangeMap'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): error C2433: 'ofxCvImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): warning C4183: 'getCv8BitsImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): error C2433: 'ofxCvImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): warning C4183: 'getCv8BitsRoiImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(166): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(166): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(166): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(167): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(167): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(167): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.h(60): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.h(60): error C2143: syntax error : missing ',' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.h(155): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.h(155): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.h(155): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.h(59): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.h(59): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.h(59): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.h(60): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.h(60): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.h(60): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.h(61): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.h(61): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.h(61): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.h(62): error C2065: 'CvSeq' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.h(62): error C2059: syntax error : '>'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.h(69): error C2143: syntax error : missing ';' before '}'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(7): error C2143: syntax error : missing ';' before '{'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(10): error C2065: 'CV_WHOLE_SEQ' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(11): error C2065: 'CV_WHOLE_SEQ' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(14): error C2143: syntax error : missing ';' before '}'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(20): error C2143: syntax error : missing ';' before '{'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(25): error C2143: syntax error : missing ';' before '}'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(28): error C2143: syntax error : missing ';' before '{'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(30): error C2143: syntax error : missing ';' before '}'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(33): error C2143: syntax error : missing ';' before '{'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(37): error C2143: syntax error : missing ';' before '}'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(45): error C2143: syntax error : missing ';' before '{'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(65): error C2143: syntax error : missing ';' before '{'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(66): error C2327: 'ofxCvContourFinder::_height' : is not a type name, static, or enumerator
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(66): error C2065: '_height' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(67): error C2143: syntax error : missing ';' before '}'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(70): error C2327: 'ofxCvContourFinder::_height' : is not a type name, static, or enumerator
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(70): error C2065: '_height' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(71): error C2143: syntax error : missing ';' before '}'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(82): error C2065: 'contour_storage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(82): error C2065: 'contour_list' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(83): error C2065: 'CvContour' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(83): error C2070: ''unknown-type'': illegal sizeof operand
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(83): error C2065: 'retrieve_mode' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(83): error C2065: 'bUseApproximation' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(83): error C2065: 'CV_CHAIN_APPROX_SIMPLE' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(83): error C2065: 'CV_CHAIN_APPROX_NONE' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(83): error C2143: syntax error : missing ',' before ')'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(87): error C2143: syntax error : missing ';' before '{'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(88): error C2065: 'CV_WHOLE_SEQ' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(88): error C2065: 'bFindHoles' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(88): error C2143: syntax error : missing ',' before ')'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(89): error C2143: syntax error : missing ';' before '{'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(91): error C2143: syntax error : missing ';' before '}'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(92): error C2143: syntax error : missing ';' before '{'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(94): error C2143: syntax error : missing ';' before '}'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(96): error C2143: syntax error : missing ';' before '}'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(100): error C2143: syntax error : missing ';' before '{'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(101): error C2065: 'cvSeqBlobs' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(101): error C2228: left of '.end' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(101): error C2065: 'sort_carea_compare' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(101): error C2143: syntax error : missing ',' before ')'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(102): error C2143: syntax error : missing ';' before '}'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(107): error C2143: syntax error : missing ')' before ';'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(107): error C2059: syntax error : ')'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(107): error C2143: syntax error : missing ';' before '{'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(109): error C2065: 'CV_WHOLE_SEQ' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(109): error C2065: 'bFindHoles' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(109): error C2143: syntax error : missing ',' before ')'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(111): error C2065: 'myMoments' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(122): error C2143: syntax error : missing ';' before '{'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(128): error C2143: syntax error : missing ';' before '}'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(129): error C2143: syntax error : missing ';' before '{'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(131): error C2143: syntax error : missing ';' before '}'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(136): error C2065: 'reader' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(136): error C2143: syntax error : missing ',' before ')'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(138): error C2143: syntax error : missing ')' before ';'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(138): error C2059: syntax error : ')'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(138): error C2143: syntax error : missing ';' before '{'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(139): error C2065: 'reader' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(140): error C2065: 'pt' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(140): error C2228: left of '.y' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(140): error C2143: syntax error : missing ',' before ')'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(141): error C2143: syntax error : missing ';' before '}'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(144): error C2143: syntax error : missing ';' before '}'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(150): error C2143: syntax error : missing ';' before '{'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(151): error C2143: syntax error : missing ';' before '{'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(155): error C2143: syntax error : missing ';' before '}'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(158): error C2143: syntax error : missing ';' before '{'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(162): error C2143: syntax error : missing ';' before '{'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(163): error C2143: syntax error : missing ';' before '{'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(165): error C2143: syntax error : missing ';' before '{'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(168): error C2143: syntax error : missing ';' before '}'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(171): error C2143: syntax error : missing ';' before '}'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(177): error C2143: syntax error : missing ',' before ')'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcontourfinder.cpp(177): fatal error C1003: error count exceeds 100; stopping compilation
+         Generating Code...
+         Compiling...
+         ofxCvFloatImage.cpp
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(70): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(70): error C2143: syntax error : missing ',' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): error C2433: 'ofxCvImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): warning C4183: 'getCvImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(136): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(155): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(156): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(158): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(159): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(159): error C2535: 'void ofxCvImage::rangeMap(void)' : member function already defined or declared
+                 c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(158) : see declaration of 'ofxCvImage::rangeMap'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): error C2433: 'ofxCvImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): warning C4183: 'getCv8BitsImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): error C2433: 'ofxCvImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): warning C4183: 'getCv8BitsRoiImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(166): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(166): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(166): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(167): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(167): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(167): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.h(60): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.h(60): error C2143: syntax error : missing ',' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.h(155): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.h(155): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.h(155): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.h(58): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.h(58): error C2143: syntax error : missing ',' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.h(135): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.h(135): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.h(135): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(74): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(74): error C2143: syntax error : missing ',' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(147): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(148): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(149): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(149): error C2433: 'ofxCvFloatImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(149): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(149): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(149): warning C4183: 'getCv8BitsImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(150): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(150): error C2433: 'ofxCvFloatImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(150): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(150): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(150): warning C4183: 'getCv8BitsRoiImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(156): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(156): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(156): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(57): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(57): error C2143: syntax error : missing ',' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(127): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(128): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(129): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(129): error C2433: 'ofxCvShortImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(129): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(129): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(129): warning C4183: 'getCv8BitsImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(130): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(130): error C2433: 'ofxCvShortImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(130): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(130): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(130): warning C4183: 'getCv8BitsRoiImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(132): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(132): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(132): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(22): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(22): error C3861: 'cvCopy': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(30): error C2065: 'IPL_DEPTH_32F' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(35): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(43): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(44): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(44): error C3861: 'cvReleaseImage': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(65): error C2065: 'IplImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(65): error C2065: 'floatImg' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(65): error C2065: 'IplImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(65): error C2065: 'grayImg' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(65): error C2448: 'ofxCvFloatImage::convertFloatToGray' : function-style initializer appears to be a function definition
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(72): error C2065: 'IplImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(72): error C2065: 'grayImg' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(72): error C2065: 'IplImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(72): error C2065: 'floatImg' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(72): error C2448: 'ofxCvFloatImage::convertGrayToFloat' : function-style initializer appears to be a function definition
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(88): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(88): error C3861: 'cvSet': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(88): error C3861: 'cvScalar': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(100): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(100): error C2227: left of '->imageData' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(100): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(100): error C2227: left of '->widthStep' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(116): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(116): error C2227: left of '->imageData' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(116): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(116): error C2227: left of '->widthStep' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(137): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(138): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(138): error C2065: 'IPL_DEPTH_8U' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(138): error C3861: 'cvCreateImage': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(138): error C3861: 'cvSize': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(140): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(143): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(143): error C2227: left of '->imageData' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(143): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(143): error C2227: left of '->widthStep' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(147): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(147): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(170): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(170): error C2227: left of '->imageData' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(170): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(170): error C2227: left of '->widthStep' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(196): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(197): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(197): error C2065: 'IPL_DEPTH_8U' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(197): error C3861: 'cvCreateImage': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(197): error C3861: 'cvSize': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(199): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(202): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(202): error C2227: left of '->imageData' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(202): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(202): error C2227: left of '->widthStep' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(206): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(206): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(231): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(231): error C2227: left of '->imageData' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(231): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(231): error C2227: left of '->widthStep' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(265): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(287): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.cpp(287): fatal error C1003: error count exceeds 100; stopping compilation
+         Generating Code...
+         Compiling...
+         ofxCvGrayscaleImage.cpp
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(70): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(70): error C2143: syntax error : missing ',' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): error C2433: 'ofxCvImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): warning C4183: 'getCvImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(136): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(155): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(156): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(158): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(159): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(159): error C2535: 'void ofxCvImage::rangeMap(void)' : member function already defined or declared
+                 c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(158) : see declaration of 'ofxCvImage::rangeMap'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): error C2433: 'ofxCvImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): warning C4183: 'getCv8BitsImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): error C2433: 'ofxCvImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): warning C4183: 'getCv8BitsRoiImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(166): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(166): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(166): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(167): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(167): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(167): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.h(60): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.h(60): error C2143: syntax error : missing ',' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.h(155): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.h(155): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.h(155): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.h(58): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.h(58): error C2143: syntax error : missing ',' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.h(135): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.h(135): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.h(135): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(74): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(74): error C2143: syntax error : missing ',' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(147): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(148): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(149): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(149): error C2433: 'ofxCvFloatImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(149): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(149): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(149): warning C4183: 'getCv8BitsImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(150): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(150): error C2433: 'ofxCvFloatImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(150): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(150): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(150): warning C4183: 'getCv8BitsRoiImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(156): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(156): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(156): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(57): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(57): error C2143: syntax error : missing ',' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(127): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(128): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(129): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(129): error C2433: 'ofxCvShortImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(129): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(129): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(129): warning C4183: 'getCv8BitsImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(130): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(130): error C2433: 'ofxCvShortImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(130): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(130): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(130): warning C4183: 'getCv8BitsRoiImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(132): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(132): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(132): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(15): error C2065: 'briConLutMatrix' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(15): error C3861: 'cvReleaseMat': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(25): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(25): error C3861: 'cvCopy': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(33): error C2065: 'IPL_DEPTH_8U' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(37): error C2065: 'briConLutMatrix' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(37): error C2065: 'CV_8UC1' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(37): error C3861: 'cvCreateMat': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(48): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(48): error C3861: 'cvSet': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(48): error C3861: 'cvScalar': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(66): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(66): error C2227: left of '->width' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(66): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(66): error C2227: left of '->widthStep' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(67): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(67): error C2227: left of '->imageData' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(72): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(72): error C2227: left of '->imageData' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(72): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(72): error C2227: left of '->widthStep' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(102): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(102): error C2227: left of '->imageData' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(102): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(102): error C2227: left of '->widthStep' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(132): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(132): error C3861: 'cvCopy': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(156): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(156): error C2065: 'CV_RGB2GRAY' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(156): error C3861: 'cvCvtColor': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(177): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(199): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(207): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(207): error C2143: syntax error : missing ',' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(208): error C2065: '_mom' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(223): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(223): error C2065: 'cvImageTemp' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(223): error C3861: 'cvAbsDiff': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(254): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(254): error C3861: 'cvAbsDiff': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(276): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(276): error C3861: 'cvMinMaxLoc': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(277): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(287): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(298): error C2065: 'CV_THRESH_BINARY_INV' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(298): error C2065: 'CV_THRESH_BINARY' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(299): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(299): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(299): error C3861: 'cvThreshold': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(320): error C2065: 'CV_THRESH_BINARY' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(321): error C2065: 'CV_THRESH_BINARY_INV' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(323): error C2065: 'CV_ADAPTIVE_THRESH_MEAN_C' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(324): error C2065: 'CV_ADAPTIVE_THRESH_GAUSSIAN_C' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(326): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(326): error C2065: 'cvImageTemp' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(326): error C3861: 'cvAdaptiveThreshold': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(363): error C3861: 'cvRound': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(368): error C2065: 'briConLutMatrix' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(368): error C2227: left of '->data' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(368): error C2228: left of '.ptr' must have class/struct/union
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(368): error C2065: 'uchar' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(368): error C2146: syntax error : missing ';' before identifier 'v'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(374): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.cpp(374): fatal error C1003: error count exceeds 100; stopping compilation
+         Generating Code...
+         Compiling...
+         ofxCvImage.cpp
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(70): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(70): error C2143: syntax error : missing ',' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): error C2433: 'ofxCvImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): warning C4183: 'getCvImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(136): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(155): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(156): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(158): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(159): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(159): error C2535: 'void ofxCvImage::rangeMap(void)' : member function already defined or declared
+                 c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(158) : see declaration of 'ofxCvImage::rangeMap'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): error C2433: 'ofxCvImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): warning C4183: 'getCv8BitsImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): error C2433: 'ofxCvImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): warning C4183: 'getCv8BitsRoiImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(166): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(166): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(166): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(167): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(167): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(167): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.h(60): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.h(60): error C2143: syntax error : missing ',' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.h(155): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.h(155): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.h(155): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.h(58): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.h(58): error C2143: syntax error : missing ',' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.h(135): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.h(135): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.h(135): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(74): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(74): error C2143: syntax error : missing ',' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(147): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(148): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(149): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(149): error C2433: 'ofxCvFloatImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(149): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(149): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(149): warning C4183: 'getCv8BitsImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(150): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(150): error C2433: 'ofxCvFloatImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(150): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(150): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(150): warning C4183: 'getCv8BitsRoiImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(156): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(156): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(156): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(40): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(40): error C3861: 'cvCreateImage': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(40): error C3861: 'cvSize': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(41): error C2065: 'cvImageTemp' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(41): error C3861: 'cvCreateImage': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(41): error C3861: 'cvSize': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(58): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(58): error C3861: 'cvReleaseImage': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(59): error C2065: 'cvImageTemp' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(59): error C3861: 'cvReleaseImage': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(120): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(120): error C3861: 'cvSetImageROI': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(120): error C3861: 'cvRect': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(121): error C2065: 'cvImageTemp' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(121): error C3861: 'cvSetImageROI': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(121): error C3861: 'cvRect': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(132): error C2065: 'CvRect' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(132): error C2146: syntax error : missing ';' before identifier 'rect'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(132): error C2065: 'rect' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(132): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(132): error C3861: 'cvGetImageROI': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(133): error C2065: 'rect' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(133): error C2228: left of '.x' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(133): error C2065: 'rect' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(133): error C2228: left of '.y' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(133): error C2065: 'rect' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(133): error C2228: left of '.width' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(133): error C2065: 'rect' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(133): error C2228: left of '.height' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(138): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(138): error C3861: 'cvResetImageROI': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(139): error C2065: 'cvImageTemp' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(139): error C3861: 'cvResetImageROI': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(201): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(201): error C2143: syntax error : missing ',' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(202): error C2065: 'mom' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(202): error C2227: left of '->width' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(202): error C2065: 'mom' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(202): error C2227: left of '->height' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(207): error C2065: 'mom' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(207): error C2227: left of '->nChannels' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(207): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(207): error C2227: left of '->nChannels' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(207): error C2065: 'mom' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(207): error C2227: left of '->depth' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(207): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(207): error C2227: left of '->depth' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(209): error C2065: 'mom' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(209): error C2227: left of '->width' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(209): error C2065: 'mom' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(209): error C2227: left of '->height' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(210): error C2065: 'mom' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(210): error C2227: left of '->width' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(210): error C2065: 'mom' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(210): error C2227: left of '->height' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(214): error C2065: 'mom' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(214): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(214): error C3861: 'cvCopy': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(227): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(227): error C2065: 'cvImageTemp' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(227): error C3861: 'cvSubS': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(227): error C3861: 'cvScalar': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(238): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(238): error C2065: 'cvImageTemp' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(238): error C3861: 'cvAddS': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(238): error C3861: 'cvScalar': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(255): error C2227: left of '->nChannels' must point to class/struct/union/generic type
+                 type is 'int *'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(255): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(255): error C2227: left of '->nChannels' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(256): error C2227: left of '->depth' must point to class/struct/union/generic type
+                 type is 'int *'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(256): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.cpp(256): fatal error C1003: error count exceeds 100; stopping compilation
+         Generating Code...
+         Compiling...
+         ofxCvShortImage.cpp
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(70): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(70): error C2143: syntax error : missing ',' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): error C2433: 'ofxCvImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): warning C4183: 'getCvImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(136): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(155): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(156): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(158): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(159): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(159): error C2535: 'void ofxCvImage::rangeMap(void)' : member function already defined or declared
+                 c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(158) : see declaration of 'ofxCvImage::rangeMap'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): error C2433: 'ofxCvImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): warning C4183: 'getCv8BitsImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): error C2433: 'ofxCvImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): warning C4183: 'getCv8BitsRoiImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(166): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(166): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(166): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(167): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(167): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(167): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(86): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(163): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvimage.h(164): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.h(60): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.h(60): error C2143: syntax error : missing ',' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.h(155): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.h(155): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvgrayscaleimage.h(155): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.h(58): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.h(58): error C2143: syntax error : missing ',' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.h(135): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.h(135): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvcolorimage.h(135): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(74): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(74): error C2143: syntax error : missing ',' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(147): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(148): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(149): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(149): error C2433: 'ofxCvFloatImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(149): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(149): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(149): warning C4183: 'getCv8BitsImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(150): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(150): error C2433: 'ofxCvFloatImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(150): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(150): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(150): warning C4183: 'getCv8BitsRoiImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(156): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(156): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvfloatimage.h(156): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(57): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(57): error C2143: syntax error : missing ',' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(127): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(128): error C2061: syntax error : identifier 'IplImage'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(129): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(129): error C2433: 'ofxCvShortImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(129): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(129): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(129): warning C4183: 'getCv8BitsImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(130): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(130): error C2433: 'ofxCvShortImage::IplImage' : 'virtual' not permitted on data declarations
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(130): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(130): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(130): warning C4183: 'getCv8BitsRoiImage': missing return type; assumed to be a member function returning 'int'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(132): error C2143: syntax error : missing ';' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(132): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.h(132): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(22): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(22): error C3861: 'cvCopy': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(30): error C2065: 'IPL_DEPTH_16U' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(34): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(41): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(42): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(42): error C3861: 'cvReleaseImage': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(56): error C2065: 'IplImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(56): error C2065: 'shortImg' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(56): error C2065: 'IplImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(56): error C2065: 'grayImg' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(56): error C2448: 'ofxCvShortImage::convertShortToGray' : function-style initializer appears to be a function definition
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(63): error C2065: 'IplImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(63): error C2065: 'grayImg' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(63): error C2065: 'IplImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(63): error C2065: 'shortImg' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(63): error C2448: 'ofxCvShortImage::convertGrayToShort' : function-style initializer appears to be a function definition
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(79): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(79): error C3861: 'cvSet': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(79): error C3861: 'cvScalar': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(97): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(98): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(98): error C2065: 'IPL_DEPTH_8U' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(98): error C3861: 'cvCreateImage': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(98): error C3861: 'cvSize': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(100): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(103): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(103): error C2227: left of '->imageData' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(103): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(103): error C2227: left of '->widthStep' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(107): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(107): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(132): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(133): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(133): error C2065: 'IPL_DEPTH_8U' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(133): error C3861: 'cvCreateImage': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(133): error C3861: 'cvSize': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(135): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(138): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(138): error C2227: left of '->imageData' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(138): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(138): error C2227: left of '->widthStep' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(142): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(142): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(169): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(190): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(191): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(191): error C2065: 'IPL_DEPTH_8U' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(191): error C3861: 'cvCreateImage': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(191): error C3861: 'cvSize': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(194): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(195): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(195): error C2065: 'CV_RGB2GRAY' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(195): error C3861: 'cvCvtColor': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(196): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(196): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(197): error C2065: 'cvGrayscaleImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(218): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(241): error C2065: 'cvImage' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(241): error C3861: 'cvCopy': identifier not found
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(252): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(252): error C2143: syntax error : missing ',' before '*'
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(253): error C2065: '_mom' : undeclared identifier
+     1>c:\projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\addons\ofxopencv\src\ofxcvshortimage.cpp(253): fatal error C1003: error count exceeds 100; stopping compilation
+         Generating Code...
+     1>Done Building Project "C:\Projects\of_v0.7.4_vs2010_release\of_v0.7.4_vs2010_release\apps\myApps\ofxKinect\ofxKinectExample.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:43.29
