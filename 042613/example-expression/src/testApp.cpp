@@ -23,6 +23,7 @@ void testApp::update() {
 			classifier.classify(tracker);
 		}		
 	}
+    //string count = string(sips);
 }
 
 void testApp::draw() {
@@ -74,6 +75,8 @@ void testApp::draw() {
     
     ofSetColor(255, 0, 0, 255);
     ofRect(540, 20, 30, sips);
+    ofDrawBitmapString(String("sips"), 540, 20);
+    ofDrawBitmapString(ofToString(sips), 600, 20);
 }
 
 void testApp::keyPressed(int key) {

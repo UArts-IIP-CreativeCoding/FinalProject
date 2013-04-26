@@ -14,7 +14,7 @@ public:
 	ofxFaceTracker tracker;
 	ExpressionClassifier classifier;
     
-    string description;
+    string description, count;
     int reset, sips;
     
 };
