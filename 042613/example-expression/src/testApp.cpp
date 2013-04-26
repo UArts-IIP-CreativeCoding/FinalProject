@@ -9,6 +9,11 @@ void testApp::setup() {
 	
 	tracker.setup();
 	tracker.setRescale(.5);
+    
+    string description = "sippin";
+    int reset = 0;
+    
+    classifier.load("expressions");
 }
 
 void testApp::update() {
@@ -37,36 +42,55 @@ void testApp::draw() {
 		ofSetColor(255);
 		ofDrawBitmapString(classifier.getDescription(i), 5, 9);
 		ofTranslate(0, h + 5);
+      
+         // cout << classifier.getPrimaryExpression() << endl;
+      
+      if(classifier.getPrimaryExpression() == 1 && reset == 0){
+          cout << "a sip has been taken" << endl;
+          //reset = 1
+          reset = 1;
+          sips++;
+      }
+      if(classifier.getPrimaryExpression() == 0){
+          cout << "neutral" << endl;
+          //reset = 0
+          reset = 0;
+          
+      }
+      
   }
 	ofPopMatrix();
 	ofPopStyle();
 	
-	ofDrawBitmapString(ofToString((int) ofGetFrameRate()), ofGetWidth() - 20, ofGetHeight() - 10);
-	drawHighlightString(
-		string() +
-		"r - reset\n" +
-		"e - add expression\n" +
-		"a - add sample\n" +
-		"s - save expressions\n"
-		"l - load expressions",
-		14, ofGetHeight() - 7 * 12);
+//	ofDrawBitmapString(ofToString((int) ofGetFrameRate()), ofGetWidth() - 20, ofGetHeight() - 10);
+//	drawHighlightString(
+//		string() +
+//		"r - reset\n" +
+//		"e - add expression\n" +
+//		"a - add sample\n" +
+//		"s - save expressions\n"
+//		"l - load expressions",
+//		14, ofGetHeight() - 7 * 12);
+    
+    ofSetColor(255, 0, 0, 255);
+    ofRect(540, 20, 30, sips);
 }
 
 void testApp::keyPressed(int key) {
-	if(key == 'r') {
-		tracker.reset();
-		classifier.reset();
-	}
-	if(key == 'e') {
-		classifier.addExpression();
-	}
-	if(key == 'a') {
-		classifier.addSample(tracker);
-	}
-	if(key == 's') {
-		classifier.save("expressions");
-	}
-	if(key == 'l') {
-		classifier.load("expressions");
-	}
+//	if(key == 'r') {
+//		tracker.reset();
+//		classifier.reset();
+//	}
+//	if(key == 'e') {
+//		classifier.addExpression();
+//	}
+//	if(key == 'a') {
+//		classifier.addSample(tracker);
+//	}
+//	if(key == 's') {
+//		classifier.save("expressions");
+//	}
+//	if(key == 'l') {
+//		classifier.load("expressions");
+//	}
 }

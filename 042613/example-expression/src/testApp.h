@@ -13,4 +13,8 @@ public:
 	ofVideoGrabber cam;
 	ofxFaceTracker tracker;
 	ExpressionClassifier classifier;
+    
+    string description;
+    int reset, sips;
+    
 };
