@@ -81,6 +81,12 @@ if (begin == true) {
         contourFinder.blobs[i].draw(0, 0);
     }
     
+    //draw text for found blobs
+    for (int i=0; i<contourFinder.nBlobs; i++) {
+        //ofCircle(contours.blobs[i].centroid.x, contours.blobs[i].centroid.y, 20);
+        directions.drawString("hello", contourFinder.blobs[i].centroid.x, contourFinder.blobs[i].centroid.y);
+    }
+    
     
 
 }
