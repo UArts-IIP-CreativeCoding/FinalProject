@@ -22,18 +22,17 @@ class Ball {
     fill(hValue+w,255,255);
     //stroke(hValue+v,255,255);
     noStroke();
+    rectMode(CENTER);
     
     colorMode(RGB);
     
     for (int i = 0; i < fft.avgSize(); i++){
       
       float g;
-      float h;
       
       g = height/80 - fft.getAvg(i) * z;
-      h = height/80 - fft.getAvg(i) * z;
       
-    rect(width/2+x, height/2+y, g , h);
+    rect(width/3+hValue, height/4+hValue, g , g);
     }
     
     hValue += 1;
