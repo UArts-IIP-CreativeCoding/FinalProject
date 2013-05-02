@@ -29,15 +29,19 @@ void testApp::setup(){
     threshold = 80;
     
     begin = false;
+    
+    
+    sassy.loadFont("MavenProLight-200.otf", 24);
+    sass = "Sass";
+    
 }
 
 //--------------------------------------------------------------
 void testApp::update(){
     
-    ofBackground(100,100,100);
-
     video.update();
     
+    //get the image from the video and put it on the screen across the width and height
     reflection.setFromPixels(video.getPixels(), ofGetWidth(),ofGetHeight());
     grayImage = reflection;
     
@@ -53,13 +57,14 @@ void testApp::update(){
     
     // find contours which are between the size of 20 pixels and 1/3 the w*h pixels.
     // also, find holes is set to true so we will get interior contours as well....
-    contourFinder.findContours(grayDiff, 20, (340*240)/3, 10, true);	// find holes
+    contourFinder.findContours(grayDiff, 10, (340*240)/3, 10, true);	// find holes
 
 }
 
 //--------------------------------------------------------------
 void testApp::draw(){
     
+    //Start Screen
 if (begin == false) {
     ofBackground(0);
     mirror.drawString("Mirror//Mirror", 50, 100);
@@ -76,15 +81,15 @@ if (begin == true) {
     grayImage.draw(0, 0);
     
 
-    
-    for (int i = 0; i < contourFinder.nBlobs; i++){
-        contourFinder.blobs[i].draw(0, 0);
-    }
+    //darw the blobs
+//    for (int i = 0; i < contourFinder.nBlobs; i++){
+//        contourFinder.blobs[i].draw(0, 0);
+//    }
     
     //draw text for found blobs
     for (int i=0; i<contourFinder.nBlobs; i++) {
         //ofCircle(contours.blobs[i].centroid.x, contours.blobs[i].centroid.y, 20);
-        directions.drawString("hello", contourFinder.blobs[i].centroid.x, contourFinder.blobs[i].centroid.y);
+        directions.drawString(sass, contourFinder.blobs[i].centroid.x, contourFinder.blobs[i].centroid.y);
     }
     
     
@@ -96,6 +101,7 @@ if (begin == true) {
 
 //--------------------------------------------------------------
 void testApp::keyPressed(int key){
+    //Press Start
     if (key == ' ') {
         begin = true;
     }

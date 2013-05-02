@@ -48,4 +48,7 @@ class testApp : public ofBaseApp{
     int w,h;
     int findHue;
     
+    
+    ofTrueTypeFont sassy;
+    string sass;
 };
