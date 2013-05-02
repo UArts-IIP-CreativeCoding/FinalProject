@@ -78,4 +78,5 @@ void draw(){
   
   fade = get(0,0, width, height);
   
+  println("wid");
 }

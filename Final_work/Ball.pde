@@ -9,6 +9,7 @@ class Ball {
     x = pX;
     y = pY;
     z = mP;
+    a = 2;
     
     /*
     fill(0 ,0 ,0);
