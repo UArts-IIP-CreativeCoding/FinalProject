@@ -11,6 +11,8 @@ int yValue;
 float rWidth, rHeight;
 float yV;
 
+
+
 Ball l, m, n, o, p, q, r, s, t, u, v, w, x, y, z;
 
 void setup(){
@@ -30,7 +32,6 @@ void setup(){
   rHeight = height * 0.99;
   hValue = 0;
   
-  ellipseMode(CENTER);
   
   l = new Ball();
   m = new Ball();
@@ -60,23 +61,22 @@ void draw(){
   
   fft.forward(in.mix);
   
-  l.drawBall(-560, 0, 0.2, 10, -10);
-  m.drawBall(-480, 0, 0.5, 0, -10);
-  n.drawBall(-400, 0, 1, 0, -10);
-  o.drawBall(-320, 0, 1.8, -10, -10);
-  p.drawBall(-240, 0, 2.4, -20, -10);
-  q.drawBall(-160, 0, 3.2, -30, -10);
-  r.drawBall(-80, 0, 4, -40, -10);
-  s.drawBall(0, 0, 3.2, -30, -10);
-  t.drawBall(80, 0, 2.8, -20, -10);
-  u.drawBall(160, 0, 2.1, -10, -10);
-  v.drawBall(240, 0, 1.7, 0, -10);
-  w.drawBall(320, 0, 1.2, 10, -10);
-  x.drawBall(400, 0, 0.8, 20, -10);
-  y.drawBall(480, 0, 0.5, 30, -10);
-  z.drawBall(560, 0, 0.2, 40, -10);
+  l.drawBall(-560, 180, 0.2, 10, -10);
+  m.drawBall(-480, 180, 0.5, 0, -10);
+  n.drawBall(-400, 180, 1, 0, -10);
+  o.drawBall(-320, 180, 1.8, -10, -10);
+  p.drawBall(-240, 180, 2.4, -20, -10);
+  q.drawBall(-160, 180, 3.2, -30, -10);
+  r.drawBall(-80, 180, 4, -40, -10);
+  s.drawBall(0, 180, 3.2, -30, -10);
+  t.drawBall(80, 180, 2.8, -20, -10);
+  u.drawBall(160, 180, 2.1, -10, -10);
+  v.drawBall(240, 180, 1.7, 0, -10);
+  w.drawBall(320, 180, 1.2, 10, -10);
+  x.drawBall(400, 180, 0.8, 20, -10);
+  y.drawBall(480, 180, 0.5, 30, -10);
+  z.drawBall(560, 180, 0.2, 40, -10);
   
   fade = get(0,0, width, height);
   
-  println("wid");
 }

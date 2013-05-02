@@ -1,15 +1,6 @@
 class Ball {
   
-  public float w, v, x, y, z;
-  
-  void drawBall(float pX, float pY, float mP, float miHf, float miHs) {
-    
-    w = miHf;
-    v = miHs;
-    x = pX;
-    y = pY;
-    z = mP;
-    a = 2;
+    public float w, v, x, y, z;
     
     /*
     fill(0 ,0 ,0);
@@ -17,6 +8,15 @@ class Ball {
     ellipse(width/2+x, height/2+y, 20, 20);
     */
     
+    
+    void drawBall(float pX, float pY, float mP, float miHf, float miHs){
+      
+    w = miHf;
+    v = miHs;
+    x = pX;
+    y = pY;
+    z = mP;
+      
     colorMode(HSB);
   
     fill(hValue+w,255,255);
@@ -26,7 +26,14 @@ class Ball {
     colorMode(RGB);
     
     for (int i = 0; i < fft.avgSize(); i++){
-    ellipse(width/2+x, height/2+y, height/80 - fft.getAvg(i) * z, height/80 - fft.getAvg(i) * z);
+      
+      float g;
+      float h;
+      
+      g = height/80 - fft.getAvg(i) * z;
+      h = height/80 - fft.getAvg(i) * z;
+      
+    rect(width/2+x, height/2+y, g , h);
     }
     
     hValue += 1;
