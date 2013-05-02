@@ -15,7 +15,8 @@ void testApp::setup() {
     
     classifier.load("expressions");
     
-    int liquid = 20;
+    
+    int coffee = 2;
 }
 
 void testApp::update() {
@@ -32,6 +33,7 @@ void testApp::update() {
         coffee++;
         
     }
+    
 }
 
 void testApp::draw() {
@@ -62,7 +64,7 @@ void testApp::draw() {
             liquid--;
         }
         if(classifier.getPrimaryExpression() == 0){
-            cout << "neutral" << endl;
+            //cout << "neutral" << endl;
             //reset = 0
             reset = 0;
             
@@ -87,14 +89,53 @@ void testApp::draw() {
     ofDrawBitmapString(String("sips"), 540, 20);
     ofDrawBitmapString(ofToString(sips), 600, 20);
     
-    
-    ofSetColor(255, 0, 0, 255);
+    ofFill();
+    ofSetColor(0, 0, 0);
     ofRect(495, 20, 40, 30);
     ofSetColor(100, 100, 100, 10);
     ofRect(500, 20, 30, 20);
-    ofSetColor(255, 0, 0, 255);
+    ofSetColor(0, 0, 0);
     ofRect(500, 20, 30, sips);
     ofDrawBitmapString(String("coffeeeee"), 500, 20);
+    
+    ofSetLineWidth(2);
+    ofNoFill();
+    ofSetColor(0, 0, 0);
+    ofCircle(490, 30, 6);
+    
+    
+    
+    ofScale(.5,.5);
+    cup(495,20);
+    
+    cup(495, 89);
+    
+    
+    
+    if(coffee == 1){
+        
+        cup(495, 55);
+        
+    }
+    
+    
+}
+
+void testApp::cup(int x, int y){
+    
+        ofFill();
+        ofSetColor(0, 0, 0);
+        ofRect(x, y, 40, 30);
+        ofSetColor(100, 100, 100, 10);
+        ofSetColor(255, 255, 255);
+        ofRect(x+5, y, 30, 20);
+        
+        ofSetLineWidth(2);
+        ofNoFill();
+        ofSetColor(0, 0, 0);
+        ofCircle(x-5, y+10, 6);
+
+
 }
 
 void testApp::keyPressed(int key) {
