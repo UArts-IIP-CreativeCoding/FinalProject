@@ -74,6 +74,42 @@ void testApp::setup(){
     niceArray[14] = "Marry me!";
     niceArray[15] = "Hot damn, gurl!";
     
+    dougArray[0] = "Show me your naked edges.";
+    dougArray[1] = "And that's how I got fired.";
+    dougArray[2] = "Show me your naked edges.";
+    dougArray[3] = "Show me your naked edges.";
+    dougArray[4] = "Show me your naked edges.";
+    dougArray[5] = "Show me your naked edges.";
+    dougArray[6] = "Show me your naked edges.";
+    dougArray[7] = "Show me your naked edges.";
+    dougArray[8] = "Show me your naked edges.";
+    dougArray[9] = "Show me your naked edges.";
+    dougArray[10] = "Show me your naked edges.";
+    dougArray[11] = "Show me your naked edges.";
+    dougArray[12] = "Show me your naked edges.";
+    dougArray[13] = "Show me your naked edges.";
+    dougArray[14] = "Show me your naked edges.";
+    dougArray[15] = "Show me your naked edges.";
+    dougArray[16] = "Show me your naked edges.";
+    dougArray[17] = "Show me your naked edges.";
+    dougArray[18] = "Show me your naked edges.";
+    dougArray[19] = "Show me your naked edges.";
+    
+    mikeArray[0] = "Ha- HA!";
+    mikeArray[1] = "Maybe you're a bit over-qualified";
+    mikeArray[2] = "If you know what I mean";
+    mikeArray[3] = "More is never enough for women";
+    mikeArray[4] = "Hide the 'twins'";
+    mikeArray[5] = "Are you looking for some 'extra credit?'";
+    mikeArray[6] = "Are you suggesting something?";
+    mikeArray[7] = "Oh, women...";
+    mikeArray[8] = "Ken or Girl Ken?";
+    mikeArray[9] = "Oh, I get it...";
+    mikeArray[10] = "That's what SHE SAID";
+    mikeArray[11] = "Is there something I'm missing?";
+    mikeArray[12] = "What're you so smiley about?";
+    mikeArray[13] = "WHAT? It's not my fault";
+    mikeArray[14] = "Ha- HA!";
 }
 
 //--------------------------------------------------------------
@@ -118,22 +154,22 @@ void testApp::draw(){
         select.drawString("Select a critic:", 50, 175);
         names.drawString("Sassy Sarah", 50, 225);
         names.drawString("Accepting Alice", 50, 275);
-        //names.drawString("Popular Pat", 50, 325);
-        //names.drawString("Encouraging Eric", 50, 375);
-        //names.drawString("Mother-in-Law Mary", 50, 425);
-        //names.drawString("Smart Alec", 50, 475);
-        //names.drawString("Dirty Doug", 50, 525);
+        names.drawString("Dirty Doug", 50, 325);
+        names.drawString("Uncle Mike", 50, 375);
+        
         //cursor
         ofTriangle(25, triHeight-10, 25, triHeight+10, 40, triHeight);
+        
         //instructions
         directions.drawString("w=up  s=down  a=back d=select", 50, ofGetHeight()-50);
     }
     
     
     if (mirrorStart == true) {
-
+        //your face
         reflection.draw(0, 0);
         
+        //how to get back
         directions.drawString("a=back", 50, ofGetHeight()-50);
         
         if(sarah == true){
@@ -147,6 +183,20 @@ void testApp::draw(){
             //draw text for found blobs
             for (int i=0; i<contourFinder.nBlobs; i++) {
                 directions.drawString(niceArray[i], contourFinder.blobs[i].centroid.x, contourFinder.blobs[i].centroid.y);
+            }
+        }
+        
+        if(doug == true){
+            //draw text for found blobs
+            for (int i=0; i<contourFinder.nBlobs; i++) {
+                directions.drawString(dougArray[i], contourFinder.blobs[i].centroid.x, contourFinder.blobs[i].centroid.y);
+            }
+        }
+        
+        if(mike == true){
+            //draw text for found blobs
+            for (int i=0; i<contourFinder.nBlobs; i++) {
+                directions.drawString(mikeArray[i], contourFinder.blobs[i].centroid.x, contourFinder.blobs[i].centroid.y);
             }
         }
         
@@ -168,6 +218,8 @@ void testApp::keyPressed(int key){
         mirrorStart = false;
         alice = false;
         sarah = false;
+        doug = false;
+        mike = false;
     }
     //move the selector up and down
     if (key == 'w') {
@@ -176,7 +228,7 @@ void testApp::keyPressed(int key){
         }
     }
     if (key == 's') {
-        if (triHeight < 515){
+        if (triHeight < 365){
             triHeight += 50;
         }
     }
@@ -190,6 +242,12 @@ void testApp::keyPressed(int key){
         }
         if (triHeight == 265) {
             alice = true;
+        }
+        if (triHeight == 315) {
+            doug = true;
+        }
+        if (triHeight == 365) {
+            mike = true;
         }
     }
     

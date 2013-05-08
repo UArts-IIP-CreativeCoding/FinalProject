@@ -47,15 +47,19 @@ public:
     bool mirrorStart;
     bool sarah;
     bool alice;
+    bool doug;
+    bool mike;
     
     int w,h;
     int findHue;
     int triHeight;
     
-    string sass;
     string sassArray[22];
     
-    string nice;
     string niceArray[16];
+    
+    string dougArray[20];
+    
+    string mikeArray[15];
     
 };
