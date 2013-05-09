@@ -16,7 +16,13 @@ public:
 	ofxFaceTracker tracker;
 	ExpressionClassifier classifier;
     
-    ofImage mug;
+    ofSoundPlayer  sip;
+    ofSoundPlayer  stop;
+    ofSoundPlayer  cofe;
+    
+    ofTrueTypeFont	font;
+    
+    //ofImage mug;
     
     Cup sipz;
     
@@ -24,5 +30,11 @@ public:
     
     string description, count;
     int reset, sips, liquid, coffee, another;
+    
+    
+    float startTime; // store when we start time timer
+    float endTime; // when do want to stop the timer
+    
+    bool  bTimerReached; // used as a trigger when we hit the timer
     
 };

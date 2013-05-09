@@ -5,6 +5,7 @@ using namespace ofxCv;
 using namespace cv;
 
 void testApp::setup() {
+    ofBackground(117, 117, 117);
 	ofSetVerticalSync(true);
     
     //loads camera for draw
@@ -26,6 +27,25 @@ void testApp::setup() {
     
     //On load set # of coffee consumed to 0
     int coffee = 0;
+    
+    //a little help from the simple timer eg here
+    bTimerReached = false; //time not reached
+    startTime = ofGetElapsedTimeMillis();  // get the start time
+    endTime = (int)ofRandom(1000, 5000); // in milliseconds
+    
+    
+
+	stop.loadSound("sounds/enuf.mp3"); // think yo've had enuf
+	sip.loadSound("sounds/sip.mp3"); // take another
+    cofe.loadSound("sounds/rush.mp3"); // ahhh caffiene
+	sip.setVolume(0.75f); //set vols
+    cofe.setVolume(0.75f);
+	stop.setVolume(0.75f);
+	font.loadFont("PropCourierSans-Bold-1.4.ttf", 20); //load mah fav open source font for the bottom titles
+
+
+    
+    
 }
 
 void testApp::update() {
@@ -38,13 +58,18 @@ void testApp::update() {
 		}
 	}
     
+    float timer = ofGetElapsedTimeMillis() - startTime;
+    
     //string count = string(sips);
     
     //set # of sips to equal a coffee consumed
     liquid-sips;
-    if(sips == 15){
+    if(sips == 10){
         sips = 0;
         coffee++;
+        if(coffee <= 2){
+        cofe.play();
+        }
         
     }
     
@@ -55,18 +80,31 @@ void testApp::update() {
         reset = 1;
         sips++;
         liquid--;
+        startTime = ofGetElapsedTimeMillis();
+        endTime = (int)ofRandom(10000, 15000); // milliseconds=
+        bTimerReached = false;
+        
     }
     //flat face, we do nothingg
     if(classifier.getPrimaryExpression() == 0){
         //cout << "neutral" << endl;
         //reset = 0
         reset = 0;
+        if(timer >= endTime && !bTimerReached) {
+            bTimerReached = true;
+            sip.play();
+        }
         
     }
+    if(coffee == int(3)){
+        stop.play();
+    }
+    
     
 }
 
 void testApp::draw() {
+    
 	ofSetColor(255);
     
     
@@ -85,9 +123,9 @@ void testApp::draw() {
 	int primary = classifier.getPrimaryExpression();
     for(int i = 0; i < n; i++){
 		ofSetColor(i == primary ? ofColor::red : ofColor::black);
-		ofRect(0, 0, w * classifier.getProbability(i) + .5, h);
+		ofRect(0, 0, w, h);
 		ofSetColor(255);
-		ofDrawBitmapString(classifier.getDescription(i), 5, 9);
+		ofDrawBitmapString(classifier.getDescription(i), 22, 9);
 		ofTranslate(0, h + 5);
         
         // cout << classifier.getPrimaryExpression() << endl;
@@ -139,11 +177,11 @@ void testApp::draw() {
     
     //scale background
     ofRect(445, 40, 265, 70);
-    ofDrawBitmapString(String("Cup-o-meter"), 495, 140);
+    font.drawString(String("Cup-o-meter"), 495, 140);
     
     //sip text
-    ofDrawBitmapString(String("Sip-o-meter"), 800, 140);
-    ofDrawBitmapString(ofToString(sips), 940, 80);
+    font.drawString(String("Sip-o-meter"), 800, 140);
+    font.drawString(ofToString(sips), 940, 80);
     
     //coffee scaleee
     
@@ -153,6 +191,7 @@ void testApp::draw() {
         coffees.draw(495,55,ofColor(0, 0, 0),ofColor(255,255,255));
         
         //cup(495, 55);
+
         
     };
     if(coffee == 2){
@@ -161,6 +200,7 @@ void testApp::draw() {
        // cup(495, 55);
         coffees.draw(560,55,ofColor(0, 0, 0),ofColor(255,255,255));
         //cup(560, 55);
+
         
     };
     if(coffee == 3){
@@ -168,14 +208,19 @@ void testApp::draw() {
         
         sipz.draw(495,55,ofColor(0, 0, 0),ofColor(255,255,255));
         //cup(495, 55);
-        sipz.draw(560,55,ofColor(0, 0, 0),ofColor(255,255,255));
+        sipz.draw(560,55,ofColor(255, 223, 0),ofColor(255,255,255));
         //cup(560, 55);
-        sipz.draw(620,55,ofColor(0, 0, 0),ofColor(255,255,255));
+        sipz.draw(620,55,ofColor(255, 0, 0),ofColor(255,255,255));
         //cup(620, 55);
+    
+    }
+    if(coffee >= 4){
         
-    };
-    
-    
+        
+    font.drawString(ofToString(coffee), 585, 80);
+
+        
+    }
     
     
 }
@@ -198,6 +243,10 @@ void testApp::draw() {
 //}
 
 void testApp::keyPressed(int key) {
+    if(key == 'p'){
+        
+        stop.play();
+    }
     //	if(key == 'r') {
     //		tracker.reset();
     //		classifier.reset();

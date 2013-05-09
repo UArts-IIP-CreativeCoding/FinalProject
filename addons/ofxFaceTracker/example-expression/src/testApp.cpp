@@ -1,0 +1,217 @@
+#include "testApp.h"
+#include "Cup.h"
+
+using namespace ofxCv;
+using namespace cv;
+
+void testApp::setup() {
+	ofSetVerticalSync(true);
+    
+    //loads camera for draw
+	cam.initGrabber(640, 480);
+	
+    //loads Kyle McDonald's facetracking addon
+	tracker.setup();
+	tracker.setRescale(.5);
+    
+    //house keeping
+    string description = "sippin";
+    int reset = 0;
+    
+    //load presaved expressions
+    //should be replaced by icon tracking eventually for more reliable and sensible tracking of objects in relation to the users INNER_MOUTH.
+    //Will work for now (and not well in conditional lighting) due to time and studio load.
+    
+    classifier.load("expressions");
+    
+    //On load set # of coffee consumed to 0
+    int coffee = 0;
+}
+
+void testApp::update() {
+    //get new frames to facetrack from camera
+	cam.update();
+    //if new, get er done
+	if(cam.isFrameNew()) {
+		if(tracker.update(toCv(cam))) {
+			classifier.classify(tracker);
+		}
+	}
+    
+    //string count = string(sips);
+    
+    //set # of sips to equal a coffee consumed
+    liquid-sips;
+    if(sips == 15){
+        sips = 0;
+        coffee++;
+        
+    }
+    
+    //If preloaded expression of a blocked mouth/face, count
+    if(classifier.getPrimaryExpression() == 1 && reset == 0){
+        cout << "a sip has been taken" << endl;
+        //reset = 1
+        reset = 1;
+        sips++;
+        liquid--;
+    }
+    //flat face, we do nothingg
+    if(classifier.getPrimaryExpression() == 0){
+        //cout << "neutral" << endl;
+        //reset = 0
+        reset = 0;
+        
+    }
+    
+}
+
+void testApp::draw() {
+	ofSetColor(255);
+    
+    
+	//cam.draw(0, 0);
+	//tracker.draw();
+    
+	//preloading current action bars
+	int w = 100, h = 12;
+    
+	ofPushStyle();
+	ofPushMatrix();
+	ofTranslate(65, 25);
+    
+    //current expression and its probability is being drawn
+	int n = classifier.size();
+	int primary = classifier.getPrimaryExpression();
+    for(int i = 0; i < n; i++){
+		ofSetColor(i == primary ? ofColor::red : ofColor::black);
+		ofRect(0, 0, w * classifier.getProbability(i) + .5, h);
+		ofSetColor(255);
+		ofDrawBitmapString(classifier.getDescription(i), 5, 9);
+		ofTranslate(0, h + 5);
+        
+        // cout << classifier.getPrimaryExpression() << endl;
+        
+
+        
+    }
+	ofPopMatrix();
+	ofPopStyle();
+	
+    //	ofDrawBitmapString(ofToString((int) ofGetFrameRate()), ofGetWidth() - 20, ofGetHeight() - 10);
+    //	drawHighlightString(
+    //		string() +
+    //		"r - reset\n" +
+    //		"e - add expression\n" +
+    //		"a - add sample\n" +
+    //		"s - save expressions\n"
+    //		"l - load expressions",
+    //		14, ofGetHeight() - 7 * 12);
+    
+    
+    ofSetColor(255, 0, 0, 255);
+    //ofRect(540, 20, 30, sips);
+    
+    ofFill();
+    sipz.draw(415,20,ofColor(0, 0, 0),ofColor(160,82,45));
+    
+//    ofSetColor(0, 0, 0);
+//    ofRect(495, 20, 40, 30);
+//    ofSetColor(100, 100, 100, 10);
+//    ofRect(500, 20, 30, 20);
+//    ofSetColor(0, 0, 0);
+
+    ofFill();
+    ofSetColor(255,255,255);
+    ofRect(420, 20, 30, sips);
+    
+    //yall want some crack?
+    //ofDrawBitmapString(String("coffeeeee"), 500, 20);
+    
+    ofSetLineWidth(2);
+    ofNoFill();
+    ofSetColor(255, 255, 255);
+    
+    
+    
+    ofScale(.5,.5);
+
+    
+    //scale background
+    ofRect(445, 40, 265, 70);
+    ofDrawBitmapString(String("Cup-o-meter"), 495, 140);
+    
+    //sip text
+    ofDrawBitmapString(String("Sip-o-meter"), 800, 140);
+    ofDrawBitmapString(ofToString(sips), 940, 80);
+    
+    //coffee scaleee
+    
+    
+    if(coffee == 1){
+        
+        coffees.draw(495,55,ofColor(0, 0, 0),ofColor(255,255,255));
+        
+        //cup(495, 55);
+        
+    };
+    if(coffee == 2){
+        
+        coffees.draw(495,55,ofColor(0, 0, 0),ofColor(255,255,255));
+       // cup(495, 55);
+        coffees.draw(560,55,ofColor(0, 0, 0),ofColor(255,255,255));
+        //cup(560, 55);
+        
+    };
+    if(coffee == 3){
+        
+        
+        sipz.draw(495,55,ofColor(0, 0, 0),ofColor(255,255,255));
+        //cup(495, 55);
+        sipz.draw(560,55,ofColor(0, 0, 0),ofColor(255,255,255));
+        //cup(560, 55);
+        sipz.draw(620,55,ofColor(0, 0, 0),ofColor(255,255,255));
+        //cup(620, 55);
+        
+    };
+    
+    
+    
+    
+}
+//
+//void testApp::cup(int x, int y){
+//    
+//        ofFill();
+//        ofSetColor(0, 0, 0);
+//        ofRect(x, y, 40, 30);
+//        ofSetColor(100, 100, 100, 10);
+//        ofSetColor(255, 255, 255);
+//        ofRect(x+5, y, 30, 20);
+//        
+//        ofSetLineWidth(2);
+//        ofNoFill();
+//        ofSetColor(0, 0, 0);
+//        ofCircle(x-5, y+10, 6);
+//
+//
+//}
+
+void testApp::keyPressed(int key) {
+    //	if(key == 'r') {
+    //		tracker.reset();
+    //		classifier.reset();
+    //	}
+    //	if(key == 'e') {
+    //		classifier.addExpression();
+    //	}
+    //	if(key == 'a') {
+    //		classifier.addSample(tracker);
+    //	}
+    //	if(key == 's') {
+    //		classifier.save("expressions");
+    //	}
+    //	if(key == 'l') {
+    //		classifier.load("expressions");
+    //	}
+}
