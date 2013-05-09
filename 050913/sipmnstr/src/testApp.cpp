@@ -65,10 +65,10 @@ void testApp::update() {
     //set # of sips to equal a coffee consumed
     liquid-sips;
     if(sips == 10){
-        sips = 0;
-        coffee++;
-        if(coffee <= 2){
-        cofe.play();
+        sips = 0; //set amnt of sips to 0 at start of new cup
+        coffee++; //increment cup of coffee #
+        if(coffee <= 2){ //play sip noise
+        cofe.play(); //etc
         }
         
     }
@@ -77,27 +77,27 @@ void testApp::update() {
     if(classifier.getPrimaryExpression() == 1 && reset == 0){
         cout << "a sip has been taken" << endl;
         //reset = 1
-        reset = 1;
-        sips++;
-        liquid--;
-        startTime = ofGetElapsedTimeMillis();
+        reset = 1; //state 2
+        sips++; //increment sip
+        liquid--; //defunt
+        startTime = ofGetElapsedTimeMillis(); //start time for sip reminder
         endTime = (int)ofRandom(10000, 15000); // milliseconds=
-        bTimerReached = false;
+        bTimerReached = false; //we hawnt reached the time yet
         
     }
     //flat face, we do nothingg
     if(classifier.getPrimaryExpression() == 0){
         //cout << "neutral" << endl;
         //reset = 0
-        reset = 0;
+        reset = 0; //state 1
         if(timer >= endTime && !bTimerReached) {
-            bTimerReached = true;
-            sip.play();
+            bTimerReached = true; //set time as reached
+            sip.play(); //play reminder
         }
         
     }
-    if(coffee == int(3)){
-        stop.play();
+    if(coffee == int(3) && !bTimerReached){
+        stop.play(); //not working, want to have this play after ever cup > 3rd, issue seems to be it keeps trying te replay it so it gets caught at 1st few miliseconds of clip, a new bool state would prlly fix
     }
     
     
@@ -105,14 +105,14 @@ void testApp::update() {
 
 void testApp::draw() {
     
-	ofSetColor(255);
+	ofSetColor(255); //bg
     
     
 	//cam.draw(0, 0);
 	//tracker.draw();
     
 	//preloading current action bars
-	int w = 100, h = 12;
+	int w = 100, h = 12; //h+w of bars
     
 	ofPushStyle();
 	ofPushMatrix();
@@ -120,12 +120,12 @@ void testApp::draw() {
     
     //current expression and its probability is being drawn
 	int n = classifier.size();
-	int primary = classifier.getPrimaryExpression();
+	int primary = classifier.getPrimaryExpression(); //get expessions from data file via addon
     for(int i = 0; i < n; i++){
-		ofSetColor(i == primary ? ofColor::red : ofColor::black);
+		ofSetColor(i == primary ? ofColor::red : ofColor::black); //set color of primarily displayed expressino on user
 		ofRect(0, 0, w, h);
 		ofSetColor(255);
-		ofDrawBitmapString(classifier.getDescription(i), 22, 9);
+		ofDrawBitmapString(classifier.getDescription(i), 22, 9); //put string in center of description from datafile
 		ofTranslate(0, h + 5);
         
         // cout << classifier.getPrimaryExpression() << endl;
@@ -151,7 +151,7 @@ void testApp::draw() {
     //ofRect(540, 20, 30, sips);
     
     ofFill();
-    sipz.draw(415,20,ofColor(0, 0, 0),ofColor(160,82,45));
+    sipz.draw(415,20,ofColor(0, 0, 0),ofColor(160,82,45)); //sip counter coffee mug
     
 //    ofSetColor(0, 0, 0);
 //    ofRect(495, 20, 40, 30);
@@ -161,7 +161,7 @@ void testApp::draw() {
 
     ofFill();
     ofSetColor(255,255,255);
-    ofRect(420, 20, 30, sips);
+    ofRect(420, 20, 30, sips); //loosing sips in cup
     
     //yall want some crack?
     //ofDrawBitmapString(String("coffeeeee"), 500, 20);
@@ -177,11 +177,11 @@ void testApp::draw() {
     
     //scale background
     ofRect(445, 40, 265, 70);
-    font.drawString(String("Cup-o-meter"), 495, 140);
+    font.drawString(String("Cup-o-meter"), 495, 140); //title
     
     //sip text
-    font.drawString(String("Sip-o-meter"), 800, 140);
-    font.drawString(ofToString(sips), 940, 80);
+    font.drawString(String("Sip-o-meter"), 800, 140); //title
+    font.drawString(ofToString(sips), 940, 80); //counter
     
     //coffee scaleee
     
@@ -217,7 +217,7 @@ void testApp::draw() {
     if(coffee >= 4){
         
         
-    font.drawString(ofToString(coffee), 585, 80);
+    font.drawString(ofToString(coffee), 585, 80); //counter for after 3 coffeesss
 
         
     }

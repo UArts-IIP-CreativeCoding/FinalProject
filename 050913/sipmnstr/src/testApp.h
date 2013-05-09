@@ -16,13 +16,14 @@ public:
 	ofxFaceTracker tracker;
 	ExpressionClassifier classifier;
     
-    ofSoundPlayer  sip;
-    ofSoundPlayer  stop;
-    ofSoundPlayer  cofe;
+    ofSoundPlayer  sip; //play during pauses randomly
+    ofSoundPlayer  stop; //play when at max coffee consumption
+    ofSoundPlayer  cofe; //yohhhhhh caffiene
     
-    ofTrueTypeFont	font;
+    ofTrueTypeFont	font; //loading fav font
     
     //ofImage mug;
+    //crassesss
     
     Cup sipz;
     

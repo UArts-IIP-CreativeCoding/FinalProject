@@ -32,6 +32,7 @@ void Cup:: draw(int x, int y, ofColor body, ofColor etc){
     ofSetLineWidth(2);
     ofNoFill();
     ofSetColor(0, 0, 0);
+    //handle
     ofCircle(x-5, y+10, 6);
     
 }
